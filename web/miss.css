@@ -1,0 +1,43 @@
+/* 
+    Document   : miss
+    Created on : Feb 16, 2013, 2:30:37 PM
+    Author     : kisa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+p
+{
+width:10px;    
+}
+p.a
+{
+    width:100px;
+    font-family: "arial black";
+    font-size: 20px;    
+}
+
+p.l
+{
+    font-family: "arial black";
+    font-size: 20px;
+}
+
+table.g
+{
+    alignment-baseline: baseline;
+    width: 100%;
+}
+
+a
+{
+    font-family: arial;
+}
+
+a.head
+{
+  
+}
+
+
+

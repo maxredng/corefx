@@ -1,0 +1,4652 @@
+
+root 
+{ 
+    display: block;
+}
+
+body
+{
+.content {overflow:auto;}
+.content {overflow-y:auto;}
+.content {overflow-x:auto;}
+}
+
+
+#gentab
+{
+    font-size: 15px;
+    position: relative;
+    
+    
+}
+.tabie
+{
+    position:absolute;
+    width:70px;
+    height:25px;
+    background:darkgreen;
+    color:white;
+    border-bottom: 1px darkred;
+    border-right:1px darkred;
+    border-left:1px darkred;
+    border-radius: 3px;
+    text-align:center;
+    cursor:pointer;
+    
+}
+.tabie:hover
+{
+     position:absolute;
+    width:70px;
+    height:25px;
+    background:black;
+    color:white;
+    border-bottom: 1px darkred;
+    border-right:1px darkred;
+    border-left:1px darkred;
+    border-radius: 3px;
+    text-align:center;
+    cursor:pointer;   
+    
+}
+.female
+{
+    top:0px;
+    left:100px;
+    
+}
+.male
+{
+    top:0px;
+    left:172px;
+}
+
+#check
+{
+    position: relative;
+    font-size: 14px;
+  
+}
+
+.sm
+{
+    position: absolute;
+    font-size:14px;
+    margin-top:10px;
+    
+    border-bottom: 1px dotted darkred;
+}
+
+.key
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    top:0px;
+    left:0px;
+    font-weight: bold;
+}
+
+.val
+{
+    margin-top: 10px;
+    margin-left:5px;
+    left: 90px;
+    top:0px;
+}
+
+    p
+{
+    
+}
+p.a
+{
+    width:100px;
+    font-family: "arial black";
+    font-size: 14px;    
+    
+}
+
+p.l
+{
+    font-family: "arial black";
+    font-size: 20px;
+     
+}
+p.f
+{
+    font-family: "arial black";
+    font-size: 14px;
+    color:#ff4422;
+    width: 200px;
+}
+
+select
+{
+    color:darkcyan;
+    width:257px;
+    border:1px solid darkcyan;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,1,0.9);
+}
+
+audio
+{
+    width:240px;
+    height:26px;
+    border-radius:3px;
+    
+}
+
+select.red
+{
+    color:darkred;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+select.dark
+{
+    width:200px;
+    color:darkcyan;
+    border: 1px darkcyan;
+}
+
+div.central
+{
+    position:absolute;
+    left:37%;
+    top:10%;
+    
+}
+div.centrale
+{
+    position:absolute;
+    left:25%;
+    top:10%;
+    
+}
+
+div.blueround
+{
+    position:relative;
+    background:#0066FF;
+    width:15px;
+    height:15px;
+     
+    left:31px;
+    border-radius:50%;
+}
+div.whiteborder
+{
+    border:0.8px solid white;
+    border-radius: 3px;
+    margin-bottom:80px;
+    
+}
+div.roundab
+{
+    position:relative;
+    left: 20px;
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 17px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkmagenta;
+    color:white;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+div.roundab:hover
+{
+    position:relative;
+    left: 20px;    
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 17px;
+    text-align:center;
+    vertical-align: middle;
+    background:crimson;
+    color:white;
+    border-radius:50%;
+    cursor:pointer;
+}
+div.roundabout
+{
+    position:relative;
+    top:13px;
+    left: 20px;
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 17px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:white;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+div.roundabout:hover
+{
+    position:relative;
+    top:13px;
+    left: 20px;
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 17px;
+    text-align:center;
+    vertical-align: middle;
+    background:crimson;
+    color:white;
+    border-radius:50%;
+    cursor:pointer;
+}
+div.border
+{
+    border:0.8px solid #888888;
+    border-radius: 3px;
+    margin-bottom:80px;
+}
+
+div.borderelement
+{
+    border:0.8px solid black;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+div.borderelement:hover
+{
+    border:0.8px solid black;
+    border-radius: 4px;
+
+    background:#ff4422;
+    cursor: pointer;
+    
+}
+div.bord400
+{
+    border:2px solid #888888;
+    border-radius: 3px;
+    margin-bottom:80px;
+    width: 700px;
+}
+div.horder
+{
+    position:absolute;
+    border:0.8px solid #888888;
+    border-radius: 3px;
+    margin-top:60px;
+  
+    
+     
+}
+div.gorder
+{
+    border:0.8px solid #888888;
+    border-radius: 3px;
+ 
+}
+div.forder
+{
+    
+    border:2px solid #888888;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 5px;
+ 
+}
+
+div.mordor
+{
+    width:900px;
+    height:350px;
+    border:2px solid #888888;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 5px;
+ 
+}
+
+.shift
+{
+    position:relative;
+    padding: 10px;
+    margin-left: 30px;
+    width: 550px;
+    
+}
+
+
+div.statsum
+{
+    width:100px;
+    white-space: normal;
+    font-size: 12px;
+    position:relative;
+    margin-left:10px;
+    vertical-align: top;
+    border-bottom: 1px dotted darkred;
+}
+
+div.gensum
+{
+    width:300px;
+    white-space: normal;
+    font-size: 12px;
+    position:relative;
+    margin-left:10px;
+    margin-top:58px;
+    vertical-align: top;
+    
+}
+
+div.gensuming
+{
+    
+    position:relative;
+    width: 240px;
+    white-space: normal;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left:10px;
+    vertical-align: top;
+    margin-right: 15px;
+        
+    
+ 
+    
+}
+
+
+
+div.selpan
+{
+    position: absolute;
+    padding-top: 20px;
+    left:350px;
+    width: 300px;
+    height:300px;
+    border:2px solid darkred;
+    border-radius: 5px;
+    background-image: url("/corefx/night2.jpg");
+}
+div.selpano
+{
+    position: absolute;
+    padding-top: 20px;
+    left:350px;
+    width: 300px;
+    height:300px;
+    border:2px solid white;
+    border-radius: 5px;
+   
+}
+div.ovalbut
+{
+    position:relative;
+    border: 4px solid darkred;
+    border-radius: 14px;
+    background:mediumorchid;
+    color:white;
+    width:200px;
+    height:40px;
+    margin-left:40px;
+    margin-top:20px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center; 
+    cursor:pointer;
+}
+
+div.ovalbut:hover
+{
+    position:relative;
+    border: 4px solid darkred;
+    border-radius: 14px;
+    background:aqua;
+    color:white;
+    width:200px;
+    height:40px;
+    margin-left:40px;
+    margin-top:20px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    cursor:pointer;
+    
+}
+
+div.hiddabsolute
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+div.hidin
+{
+    visibility: hidden;
+}
+
+div.redlab
+{
+    width: 230px;
+    padding-top: 7px;
+    padding-left:5px;
+    padding-right:5px;
+    white-space: normal;
+    height:115px;
+    position:relative;
+    margin-left:10px;
+    vertical-align: top;
+    word-wrap: break-word;
+    background:gold;
+    border: 2px solid darkred;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+div.plainmess
+{
+    width: 300px;
+    padding-bottom: 7px;
+    white-space: normal;
+    height:40px;
+    position:relative;
+    margin-left:10px;
+    vertical-align: top;
+    word-wrap: break-word;  
+    font-size: 10px;
+    
+    
+}
+
+div.plaintwo
+{
+    width: 250px;
+    padding-bottom: 7px;
+    white-space: normal;
+    height:60px;
+    position:relative;
+    margin-left:10px;
+    vertical-align: top;
+    word-wrap: break-word;
+   
+}
+
+
+option
+{}
+option.redsel
+{
+    color: red;
+    font-family: verdana;
+}
+
+option.cn
+{
+    
+    font-size: 12px;
+    font-style: italic;
+}
+
+iframe
+{
+    
+}
+
+iframe.pfra
+{
+    width:700px;
+    height:900px;
+    overflow-y: hidden;
+    overflow-z: hidden;
+}
+
+iframe.pefra
+{
+    background:aliceblue;
+    width:280px;
+    height:100px;
+    border:0;
+    overflow-y: hidden;
+}
+
+iframe.genfra
+{
+    border:0;
+    overflow-y: hidden;
+}
+
+iframe.foofra
+{
+    background: black;
+    width:150px;
+    height:250px;
+    border:0;
+    overflow-y: hidden;
+}
+
+iframe.defra
+{
+    width: 270px;
+    height: 300px;
+    border:0;
+    overflow-y: hidden;
+ 
+}
+
+iframe.vofra
+{
+    width: 500px;
+    height: 300px;
+    border:0;
+    overflow-y: hidden;
+ 
+}
+
+
+iframe.men
+{
+    vertical-align: bottom;
+    margin-top: -10px;
+    width:230px;
+    height:50px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    
+}
+
+
+iframe.ufra
+{
+    width:270px;
+    height:180px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+iframe.efra
+{
+
+    width:620px;
+    height:750px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+
+iframe.sefra
+{
+    width:780px;
+    height:400px;
+    border:0;
+    
+   
+}
+
+iframe.lefti
+{
+    width:330px;
+    height:700px; 
+    
+}
+
+iframe.lafra
+{
+    border:0;
+    width:160px;
+    height:500px;
+}
+
+iframe.customleft
+{
+    width:140px;
+    height: 410px;
+    border:0px;
+}
+
+iframe.tv
+{
+   width: 288px;
+   height: 415px;
+   border:0;
+   background:beige;
+   
+}
+
+iframe.long
+{
+    width: 500px;
+    height:700px;
+    border:0px;
+    background:ivory;
+}
+
+iframe.poframe
+{
+    width:100%;
+    height:200px;
+}
+
+iframe.loframe
+{
+    width:330px;
+    height:700px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,1,0.9); 
+    border-radius: 10px;
+}
+
+iframe.bodyframe
+{
+    width:100%;
+    height:700px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,1,0.9); 
+    border-radius: 10px;
+}
+
+iframe.bofra
+{
+    margin: 0px;
+    padding:0px;
+    width:100%;
+    height:1000px;
+    overflow-x:hidden;
+    overflow-y:hidden;   
+    
+}
+iframe.bofrau
+{
+    margin: 0px;
+    padding:0px;
+    width:700px;
+    height:1000px;
+    overflow-x:hidden;
+    overflow-y:hidden;   
+    
+}
+iframe.bofrag
+{
+    margin: 0px;
+    padding:0px;
+    width:100%;
+    height:700px;
+    overflow-x:hidden;
+    overflow-y:hidden;   
+    background:black;
+}
+
+.black
+{
+    background: black;
+}
+
+iframe.bobfra
+{
+ 
+    width:100%;
+    height:750px;
+    margin: 0px;
+    padding:0px;
+    border:0px;
+    overflow-x:hidden;
+    overflow-y:scroll;   
+    line-height: 0;
+    float: left; 
+    background:#888888;
+}
+
+
+iframe.small
+{
+    width:300px;
+    height:150px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,1,0.9);
+    border: 0px;
+}
+
+iframe.core
+{
+    width:100%;
+    height:700px;
+    border: 0px;
+    background:whitesmoke;
+    border-radius: 3px;
+}
+
+table
+{
+     
+    margin-top: 0px;
+    padding-top: 0px;
+    vertical-align: top;
+    alignment-baseline: before-edge;
+    display: table;
+/*    white-space:nowrap;*/
+     
+}
+
+table.ec
+{
+    background:aliceblue;
+    width:100%;
+    
+}
+
+table.wide
+{
+   background:aliceblue;
+    width:100%;
+    height:300px;
+}
+table.lan
+{
+    
+}
+
+table.pro
+{
+    border-spacing: 15px;
+}
+
+table.row
+{
+    margin-left: 5px;
+}
+table.tricol
+{
+    columns: 3 auto;
+}
+
+table.g
+{
+    margin:0 auto;
+    width: 100%;
+    border-bottom: 1px solid green;
+    
+}
+
+table.cont
+{
+    margin:0 auto;
+    border: 1px dashed red;
+    width:100%;
+}
+
+table.pointab
+{
+    width:100%;
+    height:150px;
+
+color:red;
+
+}
+
+table.setab
+{
+    width:100%;
+}
+
+table.footer
+{
+    width:100%;
+    background:#660022;
+}
+
+table.botab
+{
+    table-layout: auto;
+    border-collapse: collapse;
+ 
+}
+
+table.workmid
+{
+    width:240px;
+}
+
+td
+{
+    align-items:flex-start;
+    padding: 0px;
+    margin: 0px;
+    border: 1px;
+    
+    
+}
+
+td.po
+{
+ 
+ 
+}
+td.gbot
+{
+ 
+  border-bottom: 1px solid darkred;  
+  height:50px;
+}
+
+a
+{
+    color: white;
+    
+}
+
+a.blue
+{
+    color:blue;
+    cursor: pointer;
+    
+}
+
+a.exi
+{
+    color: blue;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+a.usa
+{
+    cursor:pointer;
+    padding-left: 50px;
+}
+
+
+
+a.head
+{
+  
+}
+img.perim
+{
+    width:88px;
+    height:100px;
+    background-image: url("/corefx/start/img?id=background");
+}
+img.calc
+{
+    width:40px;
+    height:50px;
+}
+
+img.base
+{
+    width:180px;
+    height:200px;
+    margin:5px; 
+    padding: 5px; 
+    border:1px solid darkred;
+    
+    
+}
+
+input.aqua
+{
+    position:relative;
+    width:123px;
+    height:40px;
+    background:darkcyan;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input.aqua:hover
+{
+    position:relative;
+    width:123px;
+    height:40px;
+    background:aquamarine;
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input.aqua:unhover
+{
+    position:relative;
+    width:123px;
+    height:40px;
+    background:darkcyan;
+    color:white;
+    font-size:15px;
+  
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bel
+{
+    margin-top: 30px;
+}
+
+input.ecbut
+{
+    text-align: center;
+    margin-left: 17px;
+    margin-top:5px;
+    background:indianred;
+    width:100px;
+    color: white;
+    border: 1px solid darkred;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+input.ecbut:hover
+{
+    text-align: center;
+    margin-top:5px;
+    background:red;
+    width:100px;
+    color: white;
+    border: 1px solid darkred;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+input.ecbut:unhover
+{
+    text-align: center;
+    margin-top:5px;
+    background:indianred;
+    width:100px;
+    color: white;
+    border: 1px solid darkred;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+img.steam
+{
+    width:90px;
+    height:40px;
+}
+
+hr
+{}
+hr.line
+{
+    color: red;
+    size:10px;
+}
+
+tr
+{
+
+  vertical-align:top;
+}
+
+div
+{
+vertical-align: top;
+padding: 0px;      
+margin: 0px;  
+font-family: verdana;
+}
+
+div.born
+{
+    margin-left:60px;
+}
+div.vecong
+{
+    
+    position:relative;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+div.fra
+{
+    width:200px;
+    height:70px;
+}
+
+div.foot
+{
+    background-color:#660022;
+    text-align: left;
+    color: white;
+    font-family: verdana;
+    font-size: 12px;
+    padding-left: 0px;
+    height: 25px;
+    
+    
+}
+
+div.dumfoot
+{
+    background-color:#660022;
+    height: 25px;
+    width: 80px;
+     
+}
+
+div.foodiv
+{
+    position: absolute;
+    width:100%;
+    background: #660022;
+  
+    
+}
+
+div.redmen
+{
+    vertical-align: top;
+    text-align: left;
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ff4422;
+    cursor: pointer;
+    
+}
+
+div.tab
+{
+    position:absolute;
+  
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px; 
+    color:white;
+     
+    
+
+}
+
+     div.tabselected
+    {
+    position:absolute;
+    left:200px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    div.tadiv
+    {
+        position:relative;
+        top:30px;
+        left:40px;
+    }
+ 
+        div.lowdiv
+    {
+        position:relative;
+        top:80px;
+        left:40px;
+    }
+    div.radiv
+    {
+        position:absolute;
+        top:30px;
+        left:40px;
+    }
+    
+    div.smallwhite
+    {
+        font-family:regular;
+        font-size:10px;
+        color:white;
+        
+    }
+    
+
+    
+    
+    .shifted
+    {
+        margin-top:30px;
+    }
+    
+     div.tabselected:hover
+    {
+    position:absolute;
+    left:200px;
+    width:100px;
+    background: red;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+   text-align: center;
+   cursor: pointer;
+    }
+    
+         div.tabselected:unhover
+    {
+    position:absolute;
+    left:200px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    }
+            div.nanowhite
+    {
+        margin-left:40px;
+        font-family:regular;
+        font-size:10px;
+        color:white;
+        
+    }
+    
+    .marlow
+    {
+        margin-top:40px;
+    }
+    
+    div.simplewhite
+    {
+        margin-top:30px;
+        color:white;
+    }
+    div.shiftit
+    {
+        margin-top: 30px;
+        margin-left:40px;
+    }
+    
+    div.low60
+    {
+        
+        position:absolute;
+        margin-top: 60px;
+        margin-left:40px;       
+    }
+    
+     div.redcard
+    {
+    font-family: "Bernard MT Condensed";
+    color:darkmagenta;
+    font-size:21px;
+    margin-top:30px;
+    }   
+    
+    div.redbro
+    {
+    font-family: "Cambria";
+    color:#660022;
+    font-size:22px;
+    margin-top:30px;
+    }
+  div.smallbro
+  {
+    font-family: "Cambria";
+    color:#660022;
+    font-size:14px;
+    margin-top:10px;
+  }
+    div.macount
+    {
+        margin-left:40px;
+        margin-top: 20px;
+        background:blue;
+        border:3px cyan;
+        border-radius:2px;
+        color:white;
+        font-weight: bold;
+    }
+    
+    div.imcon
+    {
+        margin-top:34px;
+        border:4px solid blue;
+        border-radius: 8px;
+        width:240px;
+        height:240px;
+         background-image: url("/corefx/plan.png");
+    }
+    
+    div.tabtemp
+    {
+    position:absolute;
+       left:301px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;     
+   text-align: center;
+   cursor: pointer;
+    }
+        div.tabtemp:hover
+    {
+    position:absolute;
+       left:301px;
+    width:100px;
+    background: red;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;     
+    text-align: center;
+    cursor: pointer;
+    }
+        div.tabtemp:unhover
+    {
+    position:absolute;
+       left:301px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;    
+  text-align: center;
+  cursor: pointer;
+    }
+    div.tabapp
+    {
+    position:absolute;
+       left:402px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+   text-align: center;
+   cursor: pointer;
+    }
+    
+        div.tabapp:hover
+    {
+    position:absolute;
+       left:402px;
+    width:100px;
+    background: red;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+   text-align: center;
+   cursor: pointer;
+    }
+        div.tabapp:unhover
+    {
+    position:absolute;
+       left:402px;
+    width:100px;
+    background: darkred;
+    height:25px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    }
+div.redman
+{
+    vertical-align: top;
+    text-align: left;
+    font-family: verdana;
+    font-size: 12px;
+     font-weight: bold;
+    color:red;
+    cursor: pointer;
+    
+}
+
+div.smallmenu
+{
+    color:darkred;
+    cursor: pointer;
+}
+
+div.smallmenu:hover
+{
+    color: white;
+    background: darkred;
+    cursor: pointer;
+}
+
+div.smallmenu:unhover
+{
+    color: darkred;
+    background: white;
+    cursor:pointer;
+}
+
+div.martop
+{
+    margin-top: 30px;
+}
+
+div.content
+{
+position:relative;
+margin-top:23px;
+margin-left: 30px;
+z-index:0;
+}
+
+div.headhot
+{
+    position:relative;
+    z-index:1;
+    margin-top: 51px;
+    margin-left: 0px;
+    width:160px;
+    height: 73px;
+    background-color: #ff4422;
+    border: solid #ff4422 3px;
+    cursor: pointer;   
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+
+    
+
+}
+div.headhot:unhover
+{
+    position:relative;
+    z-index:1;
+    margin-top: 49px;
+    margin-left: 0px;
+    width:160px;
+    height: 73px;
+    background-color: #ff4422;
+    border: solid lightsalmon 3px;
+    cursor: pointer;   
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+
+    
+
+}
+
+div.headhot:hover
+{
+    position:relative;
+    z-index:1;
+    margin-top: 49px;
+    margin-left: 0px;
+    width:160px;
+    height: 73px;
+    background-color:crimson;
+    border: solid lightsalmon 3px;
+    cursor: pointer;   
+    font-family: verdana;
+    font-size: 20px;
+    color: white;    
+    
+}
+
+div.panel
+{
+    background: activeborder;
+    border:1px darkcyan;
+    border-radius: 4px;
+    margin-top:5px;
+    cursor: pointer;
+    
+}
+div.panel:hover
+{
+    background:aqua;
+    border:1px darkcyan;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.shir
+{
+    width:450px;
+    height:130px;
+}
+
+
+div.control
+{
+    font-size: 16px;
+    color: darkblue;
+    width: 100px;
+}
+div.pohead
+{
+    color:white;
+    font-family:verdana;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+}
+
+div.ponolog
+{
+    position: absolute;
+    border: 2px solid black;
+    visibility: visible;
+    margin-top: 50px;
+}
+
+div.inv
+{
+    position:relative;
+    vertical-align: top;
+    visibility: hidden;
+}
+div.pobold
+{
+    color: blue;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div.pon
+{
+    color: whitesmoke;
+    font-family: verdana; 
+    font-size: 16px;
+}
+
+div.pos
+{
+    color: white;
+    font-family: verdana; 
+    font-size: 20px;    
+    
+}
+
+
+div.polog
+{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 50px;
+}
+
+div.smallwhite
+{
+    position:relative;
+    z-index:1;
+    color:white;
+    font-family: verdana;
+    font-size: 16px;
+
+}
+div.snow
+{
+    color:blue;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.microwhite
+{
+    position:relative;
+    z-index:1;
+    color:white;
+    font-family: verdana;
+    font-size: 12px;
+/*    border: 1px white dashed;*/
+}
+div.povindiv
+{
+    visibility:hidden;
+    z-index: 0;
+/*    border:2px red dashed;*/
+}
+
+
+div.imgdiv
+{
+    display: inline;
+    width:180px;
+    height:200px;
+
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index:1;
+    
+   visibility:visible;
+   
+}
+
+div.mnu
+{
+    position:absolute;
+    left:100px;
+    border:1px dashed lightgreen;
+}
+
+div.menuitem
+{
+    
+    
+    border:1px dashed lightslategrey;
+    width:150px
+     
+}
+
+div.meh
+{
+    position: absolute;
+    top:300px;
+    background: red;
+    visibility:hidden;
+}
+
+
+
+div.pms
+{
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+div.loadimg
+{
+   display: inline; 
+    width:180px;
+    height:0px;
+    
+    position:relative;
+    left:0px;
+    top:-200px;
+    z-index:-1;
+    visibility:hidden;
+    vertical-align: middle;
+   
+}
+
+div.lad
+{
+    width:0px;
+    height:0px;
+    border:1px solid darksalmon;
+    text-align: center;
+    background: lightcyan;
+   
+    padding-top: 30px;
+    padding-right: 30px;
+    visibility: hidden;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+   
+}
+
+div.lom
+{
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid darkred;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    width:250px;
+    height:140px;
+    z-index: 10;
+    visibility: hidden;
+    background:linen;
+ 
+}
+
+div.clo
+{
+    position:relative;
+    top:0px;
+    left:230px;
+    width:10px;
+    border:1px solid darkred;
+    z-index: 12;
+    cursor: pointer;
+}
+
+div.parw
+{
+  cursor: pointer;
+  margin: 15px;
+
+  width:280px;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    
+}
+
+div.hd
+{
+  display:inline;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: top;
+  padding:20px;
+}
+
+div.addrow
+{
+    display: table-cell;
+    width: 47px;
+    height:47px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+div.addrow:hover
+{
+    display: table-cell;
+    width: 47px;
+    height:47px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.log
+{
+    position:relative;
+    top:0px;
+    left: 90px;
+    cursor:pointer;
+    
+}
+
+div.narrowdark
+{
+    position:absolute;
+    width:100%;
+    height:60px;
+    background:black;
+    
+}
+
+.dark
+{
+    background:black;
+}
+
+div.wholescreen
+{
+    width:100%;
+    height: 700px;
+    background-image: url("room.png");
+    background-repeat:no-repeat;
+    background-size:120% 120%;
+    position: absolute;
+    top:-10px;
+    left: -10px;
+}
+
+div.ecrivus
+{
+    width: 100%;
+    height: 120px;
+    
+       
+    background: url("head.png");
+
+}
+
+div.selable
+{
+    position:relative;
+    margin-left: 20px;
+    margin-top: 13px;
+    background: white;
+    border:3px solid darkred;
+    border-radius: 4px;
+    width:240px;
+    height:27px;
+    padding-left: 15px;
+    font-family: "Berlin Sans FB Demi";
+    color: #660022;
+    
+      
+}
+
+div.rhp
+{
+    position:absolute;
+    width:100%;
+    height:700px;
+    top:-10px;
+    left: -10px;
+    background: url("night.jpg");
+    background-size: cover;
+}
+
+div.addrow:unhover
+{
+    display: table-cell;
+    width: 47px;
+    height:47px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+div.admin
+{
+   font-weight: bold;
+   width:120px;
+   color: white;
+   background: blue;
+   visibility: hidden;
+    
+}
+
+div.hid
+{
+    visibility: hidden;
+    color:white;
+}
+
+div.hidflat
+{
+    visibility: hidden;
+    color:white;
+    height:0px;
+}
+
+
+div.gid
+{
+    left:30px;
+}
+
+div.hidtab
+{
+    visibility: hidden;
+    background:aliceblue;
+        
+}
+div.smallblue
+{
+    margin-left: 4px;
+    font-size: 10px;
+    color:blue;
+    text-decoration: underline; 
+    cursor:pointer;
+}
+div.smallblue:hover
+{
+    margin-left: 4px;
+    font-size: 10px;
+    color:darkmagenta;
+    cursor:pointer;
+}
+div.bluebird
+{
+    margin-left: 4px;
+    color:blue;
+    cursor:pointer;
+}
+div.bluebird:hover
+{
+    margin-left: 4px;
+    color:darkmagenta;
+    cursor:pointer;
+}
+
+div.bluebirdsmall
+{
+    margin-left: 4px;
+    font-size: 10px;
+    color:blue;
+    text-decoration: underline;
+    cursor:pointer;
+}
+div.bluebirdsmall:hover
+{
+    margin-left: 4px;
+    color:darkmagenta;
+    font-size: 10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+div.bluebirdsmall:visited
+{
+    margin-left: 4px;
+    color:darkmagenta;
+    font-size: 10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.row
+{
+    margin-top:15px;
+}
+
+div.widebold
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 13px;
+}
+
+div.widesmall
+{
+    font-size: 14px;
+    margin-top:12px;
+    margin-left: 6px;
+}
+
+
+
+.bot
+{
+    margin-top:0px;
+}
+
+div.cepla
+{
+    width:120px;
+}
+
+div.fdiv
+{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    visibility: visible;
+    
+    
+}
+div.ifdiv
+{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    visibility: hidden;
+    
+}
+div.backdiv
+{
+    width:100%;
+    height:1100px;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    background:black;
+}
+div.hdn
+{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    visibility: hidden;
+    
+}
+div.irdiv
+{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+div.bldg
+{
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+    top: 0px;
+    left: 0px;
+    border: 1px dashed darksalmon;
+    
+}
+div.sebod
+{
+    margin-top:30px;
+    position:relative;
+    width:780px;
+    border-left: 3px solid gold;
+    border-top: 2px solid gold;
+    margin-left:20px;
+    
+    
+}
+
+div.serv
+{
+  display:inline;
+  font-family: verdana;
+  font-size: 14px;
+  color:darkmagenta;
+  vertical-align: top;
+ 
+}
+
+div.mp
+{
+    border: 3px solid lightcoral;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;  
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px;    
+     
+    
+}
+div.babe
+{
+    margin: 0px; 
+    padding: 0px;
+
+position:relative;
+
+}
+
+
+div.c1go
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width:36px;
+    height:36px;
+    
+}
+
+div.c2go
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 8px;
+    left: 95px;
+    width:36px;
+    height:36px;
+    
+}
+
+div.c3divgo
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 95px;
+    left: 8px;
+    width:36px;
+    height:36px;
+    
+}
+
+div.c4go
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 95px;
+    left: 95px;
+    width:36px;
+    height:36px;
+    
+}
+
+div.stadiv
+{
+    background:aliceblue;
+    border: 0.8 solid darkslategray;
+    
+}
+
+div.bigblack
+{
+    margin-left: 17px;
+    font-size:17px;
+    font-weight: bold;
+    margin-top:13px;
+    margin-bottom:10px;
+}
+
+div.bigblacklab
+{
+    position:relative;
+    width:280px;
+    height:30px;
+    vertical-align:middle;
+    padding-left:14px;
+    font-size:17px;
+    font-weight: bold;
+    margin-top:13px;
+    margin-bottom:10px;
+    background: gold;
+    border: 3px solid darkred;
+    border-radius:4px;
+    
+}
+
+div.smallblack
+{
+    margin-left:3px;
+    font-size: 12px;
+}
+
+div.parel
+{
+    color:#660022;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+div.smallblacklow
+{
+    margin-top: 3px;
+    margin-left:20px;
+    font-size: 12px;
+}
+div.smallblacklo
+{
+    margin-top: 2px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+div.smallit
+{
+    margin-left:3px;
+    font-size: 12px;
+    font-style:italic;
+}
+
+div.smallblackwide
+{
+    width: 160px;
+    background:antiquewhite;
+    margin-left:3px;
+    font-size: 12px;
+}
+.niz
+{
+    margin-top:3px;
+}
+
+.pravo
+{
+    color:darkolivegreen;
+    margin-top:2px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+div.smallbold
+{
+    font-size:14px;
+    font-weight:bold;
+    
+}
+div.smallbold32
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-top: 35px;
+    margin-left: 5px;
+    
+    
+}
+div.smallboldlo
+{
+    margin-left: 5px;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+div.smallboldlow
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-left:8px;
+    
+}
+
+.hall
+{
+    margin-top:20px;
+    margin-left:40px;
+}
+
+div.efoot
+{
+    position: relative;
+    background:black;
+    width:100%;
+    height:230px;
+}
+
+div.topgo
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 8px;
+    left: 51px;
+    width:36px;
+    height:36px;
+    
+}
+
+
+div.hellored
+{
+    position:relative;
+    width:100%;
+    height:46px;
+    background: darkblue;
+    color:white;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+div.bull
+{
+  width:6px;
+  height:6px;
+  margin-top:7px;
+  border-radius:50%;
+  background:black;
+}
+
+div.bottomgo
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 95px;
+    left: 51px;
+    width:36px;
+    height:36px;
+    
+}
+div.rightgo
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 51px;
+    left: 95px;
+    width:36px;
+    height:36px;
+    
+}
+div.leftgo
+{
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 51px;
+    left: 8px;
+    width:36px;
+    height:36px;
+    
+}
+
+    div.q1go
+    {
+    border: 1px dashed greenyellow;
+    opacity: 0.3;
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    width:17px;
+    height: 21px;    
+    visibility: hidden;
+    }
+    
+    div.qudiv
+    {
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+
+    width: 17px;
+    height: 21px;
+    
+    visibility: hidden;        
+                
+        
+    }
+    
+    div.madiv
+    {
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+
+    width: 36px;
+    height: 36px;
+    
+    visibility: hidden;        
+        
+    }
+
+span.lay
+{
+    
+
+
+    position:relative;
+    height:0px;
+   
+}
+
+div.plain
+{
+    width: 400px;
+    height:40px;
+    position:relative;
+    margin-left:10px;
+    vertical-align: top;
+    border-bottom: 1px dotted red;
+}
+
+
+
+div.serv
+{
+    display: inline;
+    vertical-align: top; 
+    color:darkred;
+}
+
+div.pmi
+{
+    color:darkblue;
+    font-family: Gabriola;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+div.prlab
+{
+    font-family: verdana;
+    background:#660022;
+    color:white;
+    border-radius: 6em;
+    padding: 4px;
+}
+
+div.pmc
+{
+  
+    font-family: verdana;
+    background: darkred;
+    color:white;
+    border-radius: 5em;
+    font-size:11px;
+
+    vertical-align: top;
+    text-align: center;
+    
+}
+
+div.cart
+{
+    width:150px;
+    text-align: center;
+    font-family: Gabriola;
+    color:white;
+    font-weight: bold;
+    background: blue;
+    cursor: pointer;
+}
+div.mail
+{
+    cursor:pointer;
+    margin-top:10px;
+}
+
+div.tablo
+{
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+}
+
+div.flag
+{
+    margin-top:6px;
+    margin-left:7px;
+    cursor:pointer;
+}
+
+div.condiv
+{
+    position:relative;
+    left:130px;
+    width:100%;
+}
+
+#topsearch
+{
+    position: relative;
+    background: gold;
+    width:75%;
+    height: 90px;
+    top:10px;
+    
+    border-radius: 17px;
+    z-index: 100;
+}
+
+.part
+{
+    
+   
+    padding-top:20px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    border-right: 2px solid white;
+    top:10px;
+}
+
+.one
+{
+   
+   left:40px;
+}
+
+.two
+{
+     
+    left:270px;
+}
+
+.three
+{
+   
+    left:500px;
+}
+
+.four
+{
+     
+    left:730px;
+    border-right: 0px;
+}
+
+div.promobig
+{
+    position:absolute;
+    top:230px;
+    left:100px;
+    font-family: verdana;
+    color:white;
+    font-size: 20px;
+    z-index:1200;
+}
+div.arrow-right {
+    
+  position:absolute;
+ visibility:hidden;
+  left:100px;
+  width: 0px; 
+  height: 0px; 
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  
+  border-left: 12px solid darkgreen;
+  z-index:1200;
+}
+
+div.blau
+{
+    color: blue;
+    font-size:12px;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+div.blau:hover
+{
+    color: darkmagenta;
+    font-size:12px;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+div.linkwhite
+{
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+}
+div.divrun
+{
+    position:relative;
+    left:0;
+    top:-2px;
+    width:100%;
+    background:#888888;
+    height:30px;
+    border-radius: 3px;
+    
+}
+div.blackbold
+{
+    position:relative;
+    left:30px;
+    font-weight:bold;
+    border:4px solid #888888;
+}
+
+div.linhog
+{
+    padding-left: 300px;
+    padding-top: 34px;
+    cursor:pointer;
+}
+
+div.acdiv
+{
+    background:aliceblue;
+    border: 0.8 dotted darkslateblue;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 4px;
+    padding: 4px;
+        
+    
+}
+
+.low
+{
+    
+    height:400px;
+}
+
+.love
+{
+    padding-left: 70px;
+    padding-top: 60px;
+    top:150px;
+    left:120px;
+    width:500px;
+    height:450px;
+}
+
+.rove
+{
+    padding-left: 70px;
+    padding-top: 60px;
+/*    top:150px;
+    left:120px;*/
+    width:500px;
+    height:450px;
+}
+
+.mid
+{
+    position: relative;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-bottom: 50px;
+    border-radius: 7px;
+    width:content-box;
+    left:12px;
+    top:12px;
+        
+}
+
+.vobla
+{
+    height:100px;
+    position:relative;
+    padding-top: 70px;
+}
+
+div.lo
+{
+    position:relative;
+    left:50px;
+    top:50px;
+}
+
+
+
+div.abs
+{
+    font-size:14px;
+    font-weight:bold;
+    
+    position:absolute;
+    left:50px;
+    top:40px;
+}
+
+div.greendiv
+{
+    background:gold;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 4px;
+    padding: 4px; 
+}
+
+
+div.ocdiv
+{
+    background:aliceblue;
+    border: 0.8 dotted darkslateblue;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 4px;
+    padding: 4px;
+}
+div.work
+{
+    position: absolute;
+   
+    top:40px;
+}
+
+div.runfoot
+{
+    position: relative;
+    width:100%;
+    height:80px;
+    background:#888888;
+}
+
+div.vog
+{
+    background:aliceblue;
+    border: 0.8 dotted darkslateblue;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 4px;
+    padding: 4px;
+}
+
+.nice
+{
+    height:70px;
+    width:100%;
+    display: table-cell;
+    position:relative;
+    vertical-align: middle;
+    font-family:verdana;
+    font-size:15px;
+    
+}
+
+div.bogel
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:380px;    
+}
+
+div.bogel:hover
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background: red;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:380px;    
+}
+
+div.bogel:unhover
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:380px;    
+}
+
+div.bigel
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:300px;    
+}
+
+div.bigel:hover
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background: red;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:300px;    
+}
+
+div.bigel:unhover
+{
+
+    display: table-cell;
+    width: 100px;   
+    height: 100px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:350px;
+    left:300px;    
+}
+
+div.dumm
+{   
+    display: table-cell; 
+
+    width:130px;
+    height:38px;  
+    vertical-align: middle;
+    border-radius: 5px;
+    background: gold;
+    position:absolute;
+    top:300px;
+    left:300px;
+    color:blue;
+    z-index: 999;
+    
+}
+
+div.goldie
+{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 12px;
+    color:gold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.prebod
+{
+    position:absolute;
+    margin: 0px;
+    padding:0px;
+    width:100%;
+    height:700px;
+    top:-20px;
+    background-image: url("bod.png");
+}
+
+div.onediv
+{
+    margin-left:40px;
+}
+
+div.yellowmic
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:10px;
+
+    color:beige;
+    cursor:pointer; 
+}
+
+.dow
+{
+    margin-top: 20px;
+}
+
+div.yellowmic:hover
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:13px;
+
+    color:gold;
+    cursor:pointer; 
+}
+
+div.yellowmic:unhover
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:10px;
+
+    color:gold;
+    cursor:pointer; 
+}
+div.yellow
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    color:gold;
+    cursor:pointer;
+}
+
+div.yellow:hover
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    background: gold;
+    color:darkblue;
+    cursor:pointer;
+}
+
+div.yellow:unhover
+{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    color:gold;
+    cursor:pointer;
+}
+
+.klein
+{
+    font-size: 11px;
+    font-weight:normal;
+}
+
+
+
+div.widsmall
+{
+    margin-left: 120px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer;
+    
+}
+
+div.widsmall:hover
+{
+    margin-left: 120px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:mediumorchid;
+    cursor:pointer;
+}
+div.cyan
+{
+    position:absolute;
+    top:5px;
+    left:400px;
+    width:180px;
+    height:180px;
+    background: cornflowerblue;
+    color:white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 14px;
+    padding-top: 50px;
+    border: 4px black;
+    border-radius: 5px;
+    
+}
+div.widsmall:unhover
+{
+    margin-left: 120px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer;
+}
+
+div.nosmall
+{
+    margin-left: 5px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer;
+}
+
+div.nosmall:hover
+{
+    margin-left: 5px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:mediumorchid;
+    cursor:pointer;
+}
+
+div.nosmall:unhover
+{
+    margin-left: 5px;
+    font-size: 12px;
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer;
+}
+
+div.yellowin
+{
+    
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:gold;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    cursor:pointer;    
+}
+
+div.yellowin:hover
+{
+    
+    margin-top: 6px;
+    margin-left: 20px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    text-transform:capitalize;
+    background: yellow;
+    color:darkblue;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    cursor:pointer;    
+}
+
+div.yellowin:unhover
+{
+    
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family:verdana;
+    font-size:13px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:gold;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    cursor:pointer;    
+}
+div.heading
+{
+    position:relative;
+    width:100%;
+    height:130px;
+    padding-top:50px;
+}
+
+
+.manezh
+{
+    background: black;
+    padding-left:80px;
+}
+
+div.whitebox
+{
+    position:relative;
+    width:500px;
+    padding:40px;
+    font-family: regular;
+    font-size: 14px;
+    white-sfpace:normal;
+    color:white;
+}
+
+
+
+div.whiteboxing
+{
+    position:relative;
+    width:500px;
+   
+    font-family: regular;
+    font-size: 14px;
+    white-space:normal;
+    color:white;
+}
+div.redfoot
+{
+    position:absolute;
+}
+div.redbox
+{
+    position:relative;
+    width:500px;
+   
+    font-family: regular;
+    font-size: 14px;
+    white-space:normal;
+    color:white;
+}
+div.biggie
+{
+    position:relative;
+    width:500px;
+    margin-left:50px;
+    font-family: regular;
+    font-size: 20px;
+    white-space:normal;
+    color:white;
+}
+div.malog
+{
+    position:absolute;
+    top:10px;
+    left:20px;
+}
+
+div.bigwhite
+{
+    margin-top:20px;
+    margin-left:25px;
+    
+    color:white;
+    font-size:20px;
+   
+    cursor:pointer;
+    
+    
+}
+div wid70
+{
+    background: grey;
+    width:70px;
+    
+}
+div.midgrey
+{
+    width: 200px;
+    background: goldenrod;
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    text-align: center;
+}
+
+div.wid400
+{
+    position:relative;
+    width: 400px;
+    background: lightblue;
+}
+
+div.redhead
+{
+    font-family: "Broadway";
+    font-size: 36px;
+    color:red;
+    margin-top: 5px;
+}
+div.bigredone
+{
+    margin-top:5px;
+    margin-left:36px;
+    font-family: "Century Gothic";
+    color:gold;
+    font-size:17px;
+  
+    cursor:pointer;
+    
+    
+}
+div.bigredone:hover
+{
+    margin-top:5px;
+    margin-left:35px;
+    font-family: "Century Gothic";
+    color:white;
+    font-size:17px;
+  
+    cursor:pointer;
+    
+    
+}
+div.bigwhiten
+{
+    margin-top:5px;
+    margin-left:40px;
+    
+    color:white;
+    font-size:20px;
+   
+    cursor:pointer;
+    
+    
+}
+
+div.topmanezh
+{
+    margin-left: 100px;
+}
+
+
+div.runhead
+{
+    
+    position:relative;
+    width:100%;
+    height:110px;
+    background:darkslategrey;
+}
+
+div.lotext
+{
+    position:relative;
+    font-family:"Comic Sans";
+    font-size:56px;
+    color:white;
+}
+
+div.redbold
+{
+    font-size: 12px;
+    font-weight: bold;
+    color:darkred;
+}
+
+div.topmenu
+{
+    position:relative;
+    z-index: 100;
+    left:400px;
+    top:10px;
+    
+}
+
+div.topmenuone
+{
+    position:relative;
+    z-index: 100;
+    left:100px;
+    top:10px;
+}
+div.topmen
+{
+    table-layout: fixed;
+}
+
+div.topmemu
+{
+    text-align: center;
+    
+    font-family: Gabriola;
+    color:white;
+    font-weight: bold;
+    background: darkslateblue;
+    cursor: pointer;   
+
+     
+}
+
+
+div.price
+{
+    font-weight: bold;
+    
+}
+
+div.redpanel
+{
+    position:absolute;
+    width:700px;
+    height:170px;
+    border: 1px solid darkred;
+    left:8%;
+    top:60px;
+    border-radius: 3px;
+}
+div.show
+{
+    display: inline;
+    vertical-align: top;     
+    color:darkred;
+    
+}
+
+div.ling
+{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+   
+       
+}
+
+div.sel
+{
+    position:relative;
+    left:30px;
+    width:150px;
+    text-align: center;
+    background:darkred;
+    border-radius: 4px;
+    color:white;
+    cursor:pointer
+}
+
+div.sel:hover
+{
+    position:relative;
+    left:30px;
+    width:150px;
+    text-align: center;
+    background:red;
+    border-radius: 4px;
+    color:white;
+    cursor:pointer;
+}
+div.sel:unhover
+{
+    position:relative;
+    left:30px;
+    width:150px;
+    text-align: center;
+    background:darkred;
+    border-radius: 4px;
+    color:white;
+    cursor:pointer;
+}
+
+.sela
+{
+    margin-top:20px;
+    margin-right: 20px;
+}
+
+div.aserv
+{
+    position:relative;
+    display: inline;
+    vertical-align: top;     
+    color:darkred;   
+    
+}
+
+div.bigred
+{
+    color: darkred;
+    font-family: arial-black;
+    font-size: 16px;
+}
+
+div.ashow
+{
+    position:relative;
+    
+    display: inline;
+    vertical-align: top;     
+   
+    color:red;
+}
+
+div.pricelab
+{
+    margin-left: 10px;
+}
+
+
+div.redabs
+{
+    position:absolute;
+    top:55px;
+    left:55px;
+    color:gold;
+    font-family: "comis sans";
+    font-size: 15px;
+    font-style:italic;
+}
+
+div.round 
+{
+    visibility: hidden;
+    position:absolute;
+    left:120px;
+    top:0px;
+    z-index:2;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    border: 3px solid red;
+    background-color: lightcyan;
+    color:brown;
+    padding-left: 10px;
+
+    width: 26px;
+    height: 30px;
+    
+    
+}
+
+
+div.around 
+{
+     
+    display: table-cell;
+    width: 270px;   
+    height: 270px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:170px;
+    left:150px;  
+    
+    
+}
+div.around:hover 
+{
+     
+    display: table-cell;
+    width: 270px;   
+    height: 270px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top:170px;
+    left:150px;  
+    
+    
+}
+
+
+div.roundgold 
+{
+     
+    display: table-cell;
+    width: 150px;   
+    height: 150px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:gold;
+    color:white;
+    
+    border-radius: 50%;
+
+    margin-left: 50px;
+    position:relative;
+    top:165px;
+}
+
+div.roundhold 
+{
+     
+    display: table-cell;
+    width: 120px;   
+    height: 120px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkgoldenrod;
+    color:white;
+     
+    border-radius: 50%;
+  
+    margin-left: 50px;
+    position:relative;
+    top:180px;
+}
+
+div.roundprice
+{
+    display: table-cell;
+    width: 200px;   
+    height: 200px;
+
+    font-size: 30px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:white;  
+    border-radius: 50%; 
+    position:relative;
+    top:33px;
+    left:50px;
+    -webkit-animation-name: shimmer;  
+    -webkit-animation-duration: 4s;  
+    animation-name: shimmer;
+    animation-duration: 3s;
+}
+@-webkit-keyframes shimmer {
+    from {background-color: red;}
+    to {background-color: gold;}
+}
+
+ 
+@keyframes shimmer {
+    from {background-color: red;}
+    to {background-color: gold;}
+}
+div.roundbutton 
+{
+     
+    display: table-cell;
+    width: 180px;   
+    height: 180px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position:relative;
+    top:150px;
+    
+    
+    
+}
+div.roundbutton:hover 
+{
+     
+    display: table-cell;
+    width: 180px;   
+    height: 180px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:blue;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position:relative;
+    top:150px;
+    
+    
+}
+
+div.redaround 
+{
+    position:relative;
+    top:100px;
+    left:40px;
+    display: table-cell;
+    width: 270px;   
+    height: 270px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:red;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+  
+    
+    
+}
+div.redaround:hover 
+{
+     
+    display: table-cell;
+    width: 270px;   
+    height: 270px;
+    font-family:verdana;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    background:darkred;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+
+    
+    
+}
+
+div.prod
+{
+
+    font-family: verdana;
+    font-size: 9px;
+    line-height: 9px;
+
+    width:300px;
+    white-space: pre;
+
+    margin:.2em
+    
+
+}
+
+div.multi
+{
+
+    margin-top: 2px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 9px;
+
+    width:300px;
+    white-space: pre;
+
+    margin:.2em
+    
+
+}
+
+div.multic
+{
+
+    margin-top: 4px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 12px;
+    font-style: italic;
+    width:300px;
+    white-space: normal;
+  
+    position:relative;
+    
+    vertical-align: top;
+    word-wrap: break-word;
+
+    margin:.2em
+    
+
+}
+div.hidbox
+{
+    position:absolute;
+    top:17px;
+    left: 150px;
+    z-index: 0;
+    margin-top: 4px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+/*    background:beige;*/
+/*    color:darkslategray;*/
+    padding: 20px;
+    width:700px;
+    white-space: normal;
+    visibility: hidden;
+ 
+    
+    vertical-align: top;
+    word-wrap: break-word;
+
+    margin:.2em
+    
+    
+
+}
+div.bigbox
+{
+
+    position:absolute;
+    top:17px;
+    left: 150px;
+    z-index: 1;
+    margin-top: 4px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+/*    background:beige;*/
+/*    color:darkslategray;*/
+    padding: 20px;
+    width:700px;
+    white-space: normal;
+
+    vertical-align: top;
+    word-wrap: break-word;
+
+    margin:.2em
+    
+
+}
+
+
+
+div.plainbox
+{
+    position:relative;
+    margin-top: 4px;
+    margin-left:20px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+/*    background:beige;*/
+/*    color:darkslategray;*/
+    padding: 20px;
+    width:800px;
+    white-space: normal;
+
+    vertical-align: top;
+    word-wrap: break-word;
+
+    margin:.2em    
+}
+
+div.mess
+{
+    visibility: hidden;
+}
+div.sta
+{
+    visibility: hidden;
+    width:100%;
+    
+}
+
+div.rates
+{
+    position:relative;
+    left: 30px;
+    top:20px;
+}
+
+
+div.stipe
+{
+    height:3px;
+    position:absolute;
+    background: darkred;
+}
+div.alt
+{
+    position:relative;
+
+    padding-left:0px;
+    z-index: 1;
+    vertical-align: top;     
+    color:darkred;
+    visibility:hidden;
+}
+
+div.add
+{
+    
+}
+div.v
+{
+    
+    font-family: "arial black";
+    visibility: hidden;
+  
+}
+input.bigdarkred
+{
+    width:120px;
+    height:38px;
+    background: darkred;
+    color:white;
+    cursor:pointer;
+
+      
+}
+input.bigdarkred:hover
+{
+    width:120px;
+    height:38px;
+    background: red;
+    color:white;
+    cursor:pointer;
+}
+
+ 
+
+input.verired
+{
+    width:150px;
+    border: 2px solid red;
+    border-radius: 3px;
+        
+}
+
+input.circle
+{
+    border:1px solid darkcyan;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+input.circle:hover
+{
+    border:1px solid darkcyan;
+    border-radius: 50%;
+    background:darkcyan;
+    color:white;
+    cursor:pointer;
+}
+
+
+
+input.ptx
+{
+    border: 3px solid lightcoral;
+    border-top-left-radius: 7px; 
+    width:200px;
+
+}
+
+
+input.simple
+{
+    width:50px;
+    border:1px solid darkcyan;
+    border-radius:2px;
+}
+
+input.medium
+{
+    width:120px;
+    border:1px solid darkcyan;
+    border-radius:2px;
+}
+
+select.sim
+{
+    width:40px;
+    border:1px solid darkgreen;
+    border-radius:2px;
+}
+.middle
+{
+    width:120px;
+}
+
+input.smpl
+{
+    width:250px;
+    border:1px solid darkcyan;
+}
+
+.lore
+{
+    border:1px solid darkcyan;
+    width:400px;
+}
+
+input.short
+{
+    width:83px;
+    border:1px solid darkcyan;
+}
+
+
+
+input.redbase
+{
+    border: 1px solid darkred;
+    border-radius: 1px;
+    background:ivory;
+    width:80px;
+    
+}
+
+input.redleft
+{
+    text-align:left;
+       
+    width:110px;
+    border-color: red;
+    border-radius: 5px;
+     
+    text-align:center;
+    color:darkred;
+}
+input.adb
+{
+    border:1px solid darkred;
+    width:70px;
+    
+}
+ 
+input.paris
+{
+    border:1px solid darkslateblue;
+    width:120px;    
+    
+}
+
+input.order
+{
+    border: 1px solid blue;
+    color: blue;
+    
+}
+
+input.inp
+{
+    width:16px;
+    height:16px;
+/*    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;*/
+    border: 1px darkcyan;
+}
+
+input.name
+{
+    border: 1px solid blue;
+    color: blue;  
+    width:200px;
+    height:30px;
+    
+     
+    
+}
+
+input.parislong
+{
+    border:1px solid darkslateblue;
+    width:320px;        
+    
+}
+
+input.redon
+{
+    width:160px;
+    height:32px;
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 18px;
+    margin-top: 15px;
+    background:darkred;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+input.redon:hover
+{
+    width:160px;
+    height:32px;
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 18px;
+    margin-top: 15px;
+    background:red;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+input.number
+{
+    border: 1px solid blue;
+    color: blue;  
+    width:50px    
+}
+input.sdb
+{
+    border:1px solid red;
+    width:70px;
+}
+
+input.sample_button
+{
+    width:70px;
+    height: 20px;
+    border: 0.8px solid black;
+    border-radius: 1px;
+    margin-left: 2px;
+  
+    background:navy;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+input.sample_button:hover
+{
+    width:70px;
+    height: 20px;
+    border: 0.8px solid black;
+    border-radius: 1px;
+    margin-left: 2px;
+  
+    background:darkslategrey;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+input.redin
+{
+    width:80px;
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 8px;
+    margin-top: 5px;
+    background:darkred;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+
+input.redin:hover
+{
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 8px;
+    margin-top: 5px;
+    background: coral;
+    color:white;
+    width:80px;
+    cursor: pointer;
+}
+
+input.redin:unhover
+{
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 8px;
+    margin-top: 5px;
+    background:darkred;
+    width:80px;
+    color: white;
+    cursor: pointer;
+}
+
+.wow
+{
+    left:120px;
+}
+
+input.hidin
+{
+    visibility: hidden;
+}
+
+input.blin
+{
+    width:80px;
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 8px;
+    margin-top: 5px;
+    background:darkcyan;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+input.blin:hover
+{
+    width:80px;
+    border: 0.8px solid darkred;
+    border-radius: 0.5em;
+    margin-left: 8px;
+    margin-top: 5px;
+    background:aquamarine;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+
+input.count
+{
+    width:30px;
+}
+
+input.redbutton
+{
+    width:110px;
+    border-color: blue;
+    border-radius: 5px;
+    background:darkred;
+    text-align:center;
+    color:white; 
+    cursor:pointer;
+}
+input.redbutton:hover
+{
+    width:110px;
+    border-color: blue;
+    border-radius: 5px;
+    background:blue;
+    text-align:center;
+    color:white; 
+    cursor:pointer;
+}
+
+
+input.redbut
+{
+    width:70px;
+    border-color: red;
+    border-radius: 5px;
+    background:burlywood;
+    text-align:center;
+    color:darkred;
+        
+    
+}
+input.redinp
+{
+    width:110px;
+    border-color: red;
+    border-radius: 5px;
+    
+    text-align:center;
+    color:darkred;
+    cursor:pointer; 
+    
+}
+
+
+input.redinpis
+{
+    width:110px;
+    border-color: red;
+    border-radius: 5px;
+     
+    text-align:center;
+    color:darkred;
+    pointer-events: none;
+    
+}
+div.adm
+{
+    
+}
+div.wide
+{
+    display: inline;
+    margin-left: 20px;
+}
+
+div.wint
+{
+    border: 0.8px solid darkred;
+    border-radius:3px;
+    width:450px;
+    height:420px;
+    margin-top: 30px;
+        
+}
+
+div.right
+{
+    margin-left: 5px;
+}
+
+div.rightie
+{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+div.lft
+{
+   width: 150px;
+   height: 418px;
+   border:1px solid silver;
+   border-radius: 2px;
+}
+
+div.rght
+{
+   width: 291px;
+   height: 418px;
+   border:1px solid silver;
+   border-radius: 2px;
+}
+
+div.ptop
+{
+        margin-top: 30px;
+}
+
+div.hdtop
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+div.cong
+{
+    margin-left:20px;
+}
+
+div.cont
+{   
+
+    background-image: url("/corefx/start/img?id=plus"); 
+    background-repeat: no-repeat;
+    border: 1px solid darkslateblue;
+    width: 14px;
+    height: 10px;
+}
+div.mont
+{
+
+    background-image: url("/corefx/start/img?id=minus"); 
+    background-repeat: no-repeat;
+    border: 1px solid darkslateblue;
+    width: 14px;
+    height: 10px;
+}
+font.white
+{
+    color:white;
+}
+div.white
+{
+    border: 1px solid darkslateblue;
+    color:white;
+}
+div.low30
+{
+    margin-top:30px;
+}
+
+div.low20
+{
+    margin-top:17px;
+}
+
+div.low10
+{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+div.top10
+{
+    margin-top: 10px;
+    margin-left: 17px;  
+}
+
+div.low25
+{
+    margin-top:22px;
+}
+
+div.info
+{
+    color:blueviolet;
+    margin-left: 150px;
+}
+
+div.bluhid
+{
+    visibility: hidden;
+    background: black;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+div.whitelink
+{
+  font-family:sans-serif;
+  font-size: 14px;
+   margin-left: 30px;
+    margin-top:5px;
+    text-decoration:underline;
+    color:white;
+    cursor:pointer;
+   
+}
+div.pad
+{
+    padding-top:20px;
+}
+div.ground
+{
+    position:absolute;
+    top:75px;
+    left:20px;
+}
+
+div.bott
+{
+    width:100%;
+    background: lightblue;
+}
+
+div.smen
+{
+    position:relative;
+    width:150px;
+    color:darkslategrey;
+    font-size: 15px;
+}
+
+div.acmen
+{
+    position:relative;
+    z-index: 1;
+    color:darkred;
+    font-size: 12px;
+}
+
+div.acmen:hover
+{
+    color:blueviolet;
+}
+
+div.card
+{
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    visibility: hidden;
+    position:absolute;
+    top:0px;
+    left:980px;
+    color:blue;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    background:coral;
+    
+    border-radius: 10px
+   
+}
+
+div.bann
+{
+    position: absolute;
+    width:150px;
+    height:30px;
+    border: 3px solid darkgreen;
+    border-radius: 3px;
+    background:azure;
+    color:darkred;
+  
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: blink;
+    vertical-align: middle;
+    display: table-cell;
+   cursor: pointer;
+}
+
+
+
+div.bann:hover
+{
+    position: absolute;
+    width:150px;
+    height:30px;
+    border: 3px solid coral;
+    border-radius: 1em;
+    background: darkred;
+    color:beige;
+    margin-left: 15px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: blink;
+    vertical-align: middle;
+    display: table-cell;    
+    cursor:pointer;
+}
+div.bann:unhover
+{
+    position: absolute;
+    width:150px;
+    height:30px;
+    border: 3px solid coral;
+    border-radius: 1em;
+    background: red;
+    color:beige;
+    margin-left: 15px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: blink;
+    vertical-align: middle;
+    display: table-cell;    
+    cursor:pointer;
+}
+div.trans
+{
+    position:absolute;
+    top:-30px;
+    left:-30px;
+    width:100%;
+    height:900px;
+/*    background: #888888;*/
+    opacity:0.5;
+    visibility: hidden;
+    
+}
+div.capt
+{
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.myloader {
+	position: fixed;
+	left: 0px;
+	top: 200px;
+	width: 100%;
+	height: 50%;
+	z-index: 9999;
+	background: url('/corefx/rota1.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 50%;
+	z-index: 9999;
+	background: url('/corefx/rota1.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.lowloader {
+	position: fixed;
+        visibility:hidden;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/corefx/rota1.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+#wiz
+{
+    font-size: 15px;
+    position: relative;   
+    top:30px;
+}
+
+.pade
+{
+    position:absolute;
+    
+    width:200px;
+    height:47px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;  
+    top:0px;
+    color:white;
+
+    border-radius: 3px;
+    text-align:center;
+}
+
+.selone
+{
+    position:relative;
+    background:darkred;
+}
+.seltwo
+{
+    position:relative;
+    background:black;
+}
+
+.cusone
+{
+    position:relative;
+    background:black;
+    left:2px;
+}
+
+.custwo
+{
+    position:relative;
+    background:darkred;
+    left:2px;
+}
+
+.quone
+{
+    position:relative;
+    background:black;
+    left:3px;
+}
+.qutwo
+{
+    position:relative;
+    background:darkred;
+    left:3px;
+}
+
+#wizard
+{
+    font-size: 15px;
+    position: relative;   
+}
+.step
+{
+    position:absolute;
+    width:200px;
+    height:47px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;  
+    top:0px;
+    color:white;
+
+    border-radius: 3px;
+    text-align:center;
+ 
+    
+}
+
+.regone
+{
+    position:relative;
+     
+    background:darkslategray;
+    
+    
+}
+.regonesel
+{   position:relative;
+
+    background:black;
+    
+}
+.plantwo
+{
+    position:relative;
+     
+    background:darkslategray;
+}
+.plantwosel
+{
+     
+    position:relative;
+     
+    background:black;
+}
+.buildthree
+{
+    position:relative;
+    background:darkslategray;
+}
+.buildthreesel
+{
+    top:0px;
+    left:402px;
+    background:darkred;
+}
+.runfour
+{
+    position:relative;
+    background:darkslategray;
+    
+}
+.runfoursel
+{
+    top:0px;
+    left:603px;
+    
+}
+
+div.registr
+{
+    position:absolute;
+    top:80px;
+}
+div.pmd
+{
+    color: darkblue;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+div.lw
+{
+    margin-top:40px;
+}
+
+div.pmr
+{
+    color:red;
+    width: 90px;
+    font-family: verdana;
+    font-size: 13px;
+    text-align: left;
+}
+
+div.regdiv
+{
+    cursor:pointer;
+}
+
+div.regdiv:hover
+{
+    
+    cursor:pointer;
+    border:13px yellow;
+/*    width:54px;
+    height:54px;*/
+    border-radius: 50%;
+    
+}
+
+div.rilab
+{
+    padding: 7px;
+    position:relative;
+    top:17px;
+    margin-left:40px;
+    border-left: 1px solid darkcyan;
+    border-right: 1px solid darkcyan;
+    padding-right: 20px;
+     
+}
+
+div.ridiv
+{
+    top:28px;
+    left: 30px;
+}
+
+div.pmfit
+{
+    font-family: verdana;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+td
+{
+    vertical-align: top;
+    padding-top: 0px;
+    
+}
+
+
+td.left
+{
+    width:200px;
+}
+
+td.pm
+{
+    vertical-align: top;
+    
+}
+
+textArea
+{
+    width: 300px;
+    height: 180px;
+}
+
+.comment
+{
+    height:100px;
+}
+
+
+.addi
+{
+    height:100px;
+    border: 1px solid darkcyan;
+    width: 250px;
+}
+
+.sardina
+{
+    width:250px;
+    height:40px;
+    border: 1px solid darkcyan;
+}
+
+.cambala
+{
+    width:250px;
+    height:120px;
+    border: 1px solid darkcyan;  
+}
+
